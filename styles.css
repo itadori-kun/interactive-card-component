@@ -38,7 +38,7 @@ section {
 /* the article area */
 article {
     background-color: var(--dark-blue);
-    width: 39.5rem;
+    width: 40rem;
     height: fit-content;
     border-radius: 10px;
     padding: 3rem;
