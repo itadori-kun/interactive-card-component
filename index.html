@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <main>
+    <section id="main">
+    <article>
+      <!-- icon area -->
+      <div class="img">
+        <img src="/images/icon-star.svg" alt="">
+      </div>
+
+      <!-- heading area -->
+      <div class="heading">
+        <h1>How did we do?</h1>
+      </div>
+
+      <!-- paragraph area -->
+      <div class="paragraph">
+        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      </div>
+
+      <!-- rating area -->
+      <div class="rating">
+          <button value="1" class="btnSelect">1</button>
+          <button value="2" class="btnSelect">2</button>
+          <button value="3" class="btnSelect">3</button>
+          <button value="4" class="btnSelect">4</button>
+          <button value="5" class="btnSelect">5</button>
+      </div>
+
+      <!-- submit area -->
+      <div class="btn"><button type="submit" id="btn">Submit</button></div>
+    </article>
+
+    <!-- author area -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Godwin</a>.
+    </div>
+    </section>
+
+
+      <!-- Thank you state start -->
+    <section id="hid">
+      <article id="thank-you" class="article-thank-you">
+        <!-- icon area -->
+        <div class="img img-thank-you">
+          <img src="/images/illustration-thank-you.svg" alt="illustration-thank-you">
+        </div>
+        <div class="paragraph p2">
+          <p>You selected <span id="num"></span> out of 5</p>
+        </div>
+        <!-- heading area --> 
+        <div class="heading">
+          <h1>Thank you!</h1>
+        </div>
+
+        <!-- paragraph area -->
+        <div class="paragraph p3">
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in
+            touch!</p>
+        </div>
+      </article>
+  </main>
+<script src="script.js"></script>
+</body>
+
+</html>
