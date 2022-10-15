@@ -29,8 +29,12 @@ Users should be able to:
 - Desktop view
 ![](./screenshots/Frontend-Mentor-Interactive-rating-component-desktopSc.jpeg)
 
+
+
 - Mobile view
 ![](./screenshots/Frontend-Mentor-Interactive-rating-component-MobileSc.jpeg)
+
+
 
 - Thank you state
 ![](./screenshots/Frontend-Mentor-Interactive-rating-component-thankyouState.jpeg)
