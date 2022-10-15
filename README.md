@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - Github URL: [Github](https://github.com/itadori-kun/interactive-card-component.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Netlify URL: [Netlify](https://interactive-card-component-preview.netlify.app/)
 
 ## My process
 
